@@ -17,6 +17,23 @@
         "runOptions": {
             "runOn": "folderOpen"
         }
+      },
+      {
+        "label": "Yarn install",
+        "type": "shell",
+        "command": "npm",
+        "args": ["install"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated"
+        },
+        "runOptions": {
+            "runOn": "folderOpen",
+        }
       }
     ]
   }
